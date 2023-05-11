@@ -25,10 +25,11 @@
       if (searchParams.get("qr_ref_id")) {
         addScript();
       }
-
-      function otpless(otplessUser) {
-        alert(JSON.stringify(otplessUser));
-      }
+      (function () {
+        function otpless(otplessUser) {
+          alert(JSON.stringify(otplessUser));
+        }
+      })();
     </script>
 
     <script type="text/javascript"></script>
