@@ -27,7 +27,9 @@
       }
       (function () {
         function otpless(otplessUser) {
-          alert(JSON.stringify(otplessUser));
+          alert(otplessUser);
+          const token = otplessUser.token;
+          otplessUser = {};
         }
       })();
     </script>
